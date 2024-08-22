@@ -21,4 +21,4 @@ public class ArrayMaxFinder
         }
         System.out.println("The maximum number in the given Array is "+max);
     }
-}v
+}

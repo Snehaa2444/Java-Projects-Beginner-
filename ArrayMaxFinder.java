@@ -11,19 +11,13 @@ public class ArrayMaxFinder
         {
             a[i]= scan.nextInt();
         }
+        int max = a[i];
         for (int i =0; i<5 ;i++)
         {
-            for(int j = i+1;j<5; j++)
-            {
-                if(a[i]>a[j])
+            if(a[i]>max)
                 {
                     max = a[i];
                 }
-                else
-                {
-                    max = a[j];
-                }
-            }
         }
         System.out.println("The maximum number in the given Array is "+max);
     }
